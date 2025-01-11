@@ -74,6 +74,25 @@ POSSIBLE USERNAME FIELD FOUND:
 - Após excluir, lembre-se de salvar o arquivo
 
 
+### Testando o bypass
+
+- Ainda seguindo as etapas anteriores: ``` 1) Social-Engineering Attacks ``` - ``` 2) Web Site Attack Vectors ``` - ``` 3) Credential Harvester Attack Method ```, vamos usar a opção ``` Custon Import ```  ao invés do ``` Site Cloner ```. Nele iremos especificar o caminho do diretório que criamos e editamos o arquivo ``` index.html ```.
+- Em ``` Path to the website to be cloned ``` cole o caminho do diretório e de ``` [enter] ```. Repita o mesmo para ``` URL of the website you imported ```.
+
+![filepath](https://github.com/user-attachments/assets/d3e48ae0-ac7e-4eb8-89f5-28bb55ab7d95)
+
+### Capturando acessos e credenciais
+
+- No navegador de qualquer dispositivo de sua rede, navegue até o IP do servidor que contem o clone da página. Verifique que ele exibe um log no ``` toolkit ```, contendo o IP, data e hora de acesso do dispositivo:
+![log](https://github.com/user-attachments/assets/f4f6c222-fe3c-48a2-a468-2290c56b2e74)
+
+
+
+
+
+
+
+
 
 
 
