@@ -16,7 +16,7 @@
 - Obtendo o endereço da máquina: ``` ifconfig ```
 - URL para clone: http://www.facebook.com
 
-### Resutados
+### Resutados (antes da correção de vulnerabilidades)
 
 ![Alt text](./passwd.png "Optional title")
 
@@ -27,7 +27,7 @@
 
 O log indica que o ataque foi parcialmente bem-sucedido, porém as credenciais ainda não foram capturadas de forma clara.
 
-## Explicação dos resultados
+### Explicação dos resultados
 
 - POST Request:
 
