@@ -56,9 +56,10 @@ POSSIBLE USERNAME FIELD FOUND:
 
 - Acesse o site oficial do Facebook (https://www.facebook.com/), abra código fonte da página e copie todo o seu conteúdo:
 
-![facebookpage](https://github.com/user-attachments/assets/6a077533-2ab5-4bd3-b39f-4973b3a670e7)
-![sourcecode](https://github.com/user-attachments/assets/727abbf8-908e-4df7-a633-eb51edad9a9b)
-![copysource](https://github.com/user-attachments/assets/f9962c5e-ba3f-42a8-9fb6-8f5d544d355b)
+![facebookpage](https://github.com/user-attachments/assets/69635ae6-304e-41c2-bb79-6482e60e9093)
+![sourcecode](https://github.com/user-attachments/assets/bfd40b23-d05a-40f3-baa4-a06f5a2e9f1e)
+![copysource](https://github.com/user-attachments/assets/1b0d04fd-9840-464d-b1c3-764f918ac373)
+
 
 ## Editando arquivo
 
