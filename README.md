@@ -23,7 +23,8 @@
 ### Explicação
 
 - Apesar de conseguir clonar a página corretamente, nos testes realizados, verificou-se que o Facebook possui uma proteção contra scripts maliciosos e captura de credenciais. Nos testes mais recentes, é possível observar o seguinte log no setoolkit:
-![log1 dio](https://github.com/user-attachments/assets/49070669-4f6d-44e4-8ebd-00d26049c2ff)
+![logkali](https://github.com/user-attachments/assets/24c04cca-cab5-47ec-90c7-4aff1db1871f)
+
 O log indica que o ataque foi parcialmente bem-sucedido, porém as credenciais ainda não foram capturadas de forma clara.
 
 ## Explicação dos resultados
@@ -42,7 +43,7 @@ POSSIBLE USERNAME FIELD FOUND:
 
  - Uma possibilidade de resolução, está no próprio ``` setoolkit ``` onde se pode realizar ``` Custon Import ``` . Ainda na opção ``` 3) Credential Harvester Attack Method ```, ao invés do ``` Site cloner ```, vamos utilizar a opção ``` 3) Custom Import ```. Que irá nos possibilitar utilizar um arquivo modificado da página oficial do Facebook:
 
-![setoolkit](https://github.com/user-attachments/assets/d7234bda-7dd9-47cb-9d65-f514cfbec4dd)
+![setoolkit](https://github.com/user-attachments/assets/f057e1b1-4d99-437d-9ee5-7073b3c00f73)
 
 ## Criando um arquivo
 
@@ -51,7 +52,7 @@ POSSIBLE USERNAME FIELD FOUND:
 ![index](https://github.com/user-attachments/assets/7b271428-9836-4c22-812d-6b7677d360ed)
 
 
-## Salvar página
+## Copiando código fonte
 
 - Acesse o site oficial do Facebook (https://www.facebook.com/), abra código fonte da página e copie todo o seu conteúdo:
 
@@ -59,8 +60,19 @@ POSSIBLE USERNAME FIELD FOUND:
 ![sourcecode](https://github.com/user-attachments/assets/727abbf8-908e-4df7-a633-eb51edad9a9b)
 ![copysource](https://github.com/user-attachments/assets/f9962c5e-ba3f-42a8-9fb6-8f5d544d355b)
 
+## Editando arquivo
+
 - Vá até o diretório onde foi salvo o arquivo ``` index.html ``` e cole código fonte copiado. Você pode editá-lo com o "Mousepad":
 
 ![indexedit](https://github.com/user-attachments/assets/6a0043f4-0218-4121-88a6-8e0bfe11b244)
+
+- Localize a linha "<script src="https://static.xx.fbcdn.net/rsrc.php/v4/y8/r/Qo04Jy8d4P6.js" data-bootloader-hash="lp6Cw4s" crossorigin="anonymous"></script>" e apague-a. Ela que está associada ao botão de ``` Log in ``` do Facebook. Excluindo-a, iremos fazer um bypass na etapa de verificação do Facebook, que nos impediu de obter as credenciais anteriormente.
+
+![buttonline](https://github.com/user-attachments/assets/b3286591-5a14-49aa-b6f2-adc05e958655)
+
+- Após excluir, lembre-se de salvar o arquivo
+
+
+
 
 
