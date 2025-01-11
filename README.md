@@ -83,16 +83,11 @@ POSSIBLE USERNAME FIELD FOUND:
 
 ### Capturando acessos e credenciais
 
-- No navegador de qualquer dispositivo de sua rede, navegue até o IP do servidor que contem o clone da página. Verifique que ele exibe um log no ``` toolkit ```, contendo o IP, data e hora de acesso do dispositivo:
+- No navegador de qualquer dispositivo de sua rede, navegue até o IP do servidor que contem o clone da página. Verifique que ele exibe um log no ``` setoolkit ```, contendo o IP, data e hora de acesso do dispositivo:
 ![log](https://github.com/user-attachments/assets/f4f6c222-fe3c-48a2-a468-2290c56b2e74)
 
+- Insira as credenciais de teste e clique em ``` Entra ```
+![capturing](https://github.com/user-attachments/assets/19f5e2c3-7f8c-4e8c-89d5-0397114a3dbf)
 
-
-
-
-
-
-
-
-
-
+- Verifique o log do ``` setoolkit ``` e veja que as credencias do usuário foram capturadas com sucesso:
+![success](https://github.com/user-attachments/assets/32598982-23ce-48e6-9b04-1a8d11a095fa)
